@@ -10,6 +10,7 @@ const userInfoContainer = document.querySelector(".user-info-container");
 const API_KEY = "8d84d2628d968303f008d955c3633ca8";
 let currentTab = userTab;
 currentTab.classList.add("current_tab");
+grantContainer.classList.add("active");
 
 function getfromSessionStorage(){
     const localCoordinates = sessionStorage.getItem("user-coordinates");
